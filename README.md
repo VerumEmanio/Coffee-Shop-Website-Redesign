@@ -6,3 +6,5 @@ accounting for user experience principles, I wrote the HTML and CSS from scratch
 to fit the display of your device).
 
 I'm in the processing of incorporating JavaScript functionality as I learn that language.
+
+No u.
