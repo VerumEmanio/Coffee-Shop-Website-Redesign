@@ -7,4 +7,3 @@ to fit the display of your device).
 
 I'm in the processing of incorporating JavaScript functionality as I learn that language.
 
-No u.
