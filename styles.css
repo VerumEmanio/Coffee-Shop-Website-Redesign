@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato');
+ a {
+    color: #99262A;
+    text-decoration: none;
+}
+#about-container {
+    display: flex;
+    margin-top: 71px;
+}
+#about-left {
+    width: 593px;
+    margin-right: 26px;
+    margin-left: 100px;
+}
+#availability {
+    display: flex;
+}
+body {
+    font-size: 1.6rem;
+    color: #4A4A4A;
+    width: 1200px;
+    margin: 0px;
+}
+.coryBreth {
+    height: 227px;
+    width: 366px;
+    background-image: url(images/coryBreth.png);
+}
+.days {
+    padding: 0px;
+}
+#eventDescription-container {
+    display: flex;
+    margin-top: 87px;
+}
+#eventDescription-left {
+    margin-left: 107px;
+}
+#eventDescription-right {
+    margin-left: 40px;
+    margin-right: 118px;
+    width: 460px;
+}
+#eventDescription-right p {
+    margin-top: 0px;
+}
+#eventsHome {
+    display: flex;
+}
+.eventDate {
+    position: absolute;
+    top: 62px;
+    left: 110px;
+    width: 100%;
+    color: #FFFFFF;
+    font-family:'Lato', sans-serif;
+    font-size: 3.6rem;
+}
+.eventDay {
+    position: absolute;
+    top: 82px;
+    left: 129px;
+    width: 80px;
+    color: #FFFFFF;
+    font-family:'Lato', sans-serif;
+    font-size: 3.6rem;
+    text-align: center;
+}
+.eventMonth {
+    position: absolute;
+    top: 42px;
+    left: 128px;
+    width: 83px;
+    color: #FFFFFF;
+    font-family:'Lato', sans-serif;
+    font-size: 3.6rem;
+    text-align: center;
+}
+.eventInfo li {
+    margin-bottom: 63px;
+    width: 445px;
+}
+#eventsIndex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 83px;
+    padding: 0px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+#eventsIndex h3 {
+    margin-top: 16px;
+}
+#eventsIndex li {
+    position: relative;
+    margin-bottom: 97px;
+}
+.firstEvent {
+    width: 100%;
+}
+h1 {
+    font-family:'Gloria Hallelujah', sans-serif;
+    font-size: 3.7rem;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-family:'Gloria Hallelujah', sans-serif;
+    font-size: 2.6rem;
+    color: #99262A;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3 {
+    font-family:'Lato', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header {
+    background-image: url("images/coffeeBanner.png");
+    height: 193px;
+}
+#home-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 81px;
+}
+#home-left {
+    width: 560px;
+    margin-right: 107px;
+    margin-left: 42px;
+}
+#home-left a {
+    font-weight: bold;
+}
+#home-left p {
+    margin-top: 0px;
+}
+#home-right {
+    width: 230px;
+}
+#home-right h2 {
+    text-align: center;
+}
+html {
+    font-size: 10px;
+    font-family:'Lato', sans-serif;
+    background-color: #F1D1A4;
+}
+.iconAndDate {
+    padding: 0px;
+}
+.iconAndDate li {
+    background-image: url("images/calendarIcon.png");
+    width: 90px;
+    height: 90px;
+    margin-bottom: 33px;
+    justify-content: center;
+}
+.iconDay {
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 22px;
+    margin-bottom: 22px;
+    width: 45px;
+    text-align: center;
+}
+.iconMonth {
+    font-size: 23px;
+    margin-bottom: 0px;
+    margin-top: 18px;
+    margin-left: 22px;
+    margin-right: 22px;
+    padding-top: 18px;
+}
+.menu {
+    margin-top: 56px;
+    justify-content: center;
+    margin-left: 124px;
+}
+nav {
+    margin-top: 83px;
+}
+nav a {
+    font-family:'Lato', sans-serif;
+    color: #FFFFFF;
+}
+#nav-main a {
+    font-size: 2.3rem;
+    margin-right: 72px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+nav li {
+    width: 100px;
+    margin-right: 80px;
+}
+nav ul {
+    display: flex;
+    background-color: #753C2B;
+    justify-content: left;
+    margin: 0px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+.tagLine {
+    font-size: 1.4rem;
+    font-family:'Lato', sans-serif;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.smartPhoneMenu {
+    display: none;
+}
+ul {
+    list-style: none;
+}
+/*tablet settings */
+ @media screen and (max-width: 1240px) {
+    #about-container {
+        margin-top: 0px;
+    }
+    #about-left {
+        margin-left: 67px;
+        margin-right: 0px;
+        margin-top: 82px;
+        width: 406px;
+    }
+    #about-right {
+        margin-right: 55px;
+        margin-left: 66px;
+        margin-top: 154px;
+    }
+    body {
+        width: 1000px;
+    }
+    #eventDescription-left {
+        margin-left: 55px;
+    }
+    #eventDescription-right {
+        width: 369px;
+        margin-left: 46px;
+        margin-right: 55px;
+    }
+    #eventsIndex {
+        margin-left: 84px;
+        margin-right: 84px;
+    }
+    #eventsIndex li {
+        margin-bottom: 40px;
+    }
+    .menu {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    h2 {
+        font-size: 2.3rem;
+    }
+}
+/*smartphone settings */
+ @media screen and (max-width: 720px) {
+    #about-container {
+        margin-top: 48px;
+        display: block;
+    }
+    #about-left {
+        margin-left: 21px;
+        margin-right: 21px;
+        margin-top: 0px;
+        margin-bottom: 32px;
+        width: 278px;
+    }
+    #about-right {
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 0px;
+    }
+    #about-right img {
+        width: 100%;
+    }
+    body {
+        width: 320px;
+        font-size: 1.4rem;
+        margin: 0px;
+    }
+    .coryBreth {
+        height: 181px;
+    }
+    .days li {
+        width: 166px;
+    }
+    .eventDay {
+        top: 41px;
+        left: 104px;
+        width: 80px;
+        font-size: 4.0rem;
+        text-align: center;
+    }
+    #eventDescription-container {
+        display: block;
+    }
+    #eventDescription-left {
+        margin: 0px;
+        width: 300px;
+    }
+    #eventDescription-left img {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #eventDescription-right {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 300px;
+    }
+    #eventsIndex {
+        margin-top: 65px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #eventsIndex h3 {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+    #eventsIndex img {
+        width: 100%;
+    }
+    #eventsIndex li {
+        width: 289px;
+    }
+    .eventInfo {
+        padding: 0px;
+        margin-left: 15px;
+    }
+    .eventInfo li {
+        width: 181px;
+        margin-bottom: 30px;
+    }
+    .eventMonth {
+        top: 15px;
+        left: 114px;
+        width: 69px;
+        font-size: 3.0rem;
+        text-align: center;
+    }
+    h2 {
+        font-size: 2.0rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    #home-container {
+        margin: 0px;
+    }
+    #home-left {
+        width: 283px;
+        margin-bottom: 44px;
+        margin-right: 26px;
+        margin-left: 11px;
+        margin-top: 84px;
+    }
+    #home-right h2 {
+        margin-left: 93px;
+    }
+    #home-right img {
+        width: 208px;
+        height: 262px;
+        margin-left: 56px;
+    }
+    #home-right p {
+        margin-left: 56px;
+        width: 208px;
+    }
+    .hours {
+        padding: 0px;
+    }
+    .hours li {
+        width: 142px;
+    }
+    .iconAndDate li {
+        width: 100%;
+    }
+    .iconDay {
+        font-size: 2.7rem;
+        width: 45px;
+    }
+    .iconMonth {
+        font-size: 2.0rem;
+        width: 40px;
+    }
+    .menu {
+        display: none;
+    }
+    #nav-main a {
+        font-size: 1.8rem;
+    }
+    #nav-main li {
+        width: 70px;
+        margin-right: 5px;
+    }
+    #nav-main ul {
+        padding-left: 11px;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+    .smartPhoneMenu {
+        display: block;
+        margin-top: 56px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
